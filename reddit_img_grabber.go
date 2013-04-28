@@ -41,7 +41,7 @@ type RedditImage struct {
 
 
 func main() {
-  var subreddit directory string
+  var subreddit, directory string
   fmt.Print("Subreddit: ")
   fmt.Scanln(&subreddit)
   fmt.Print("Path where to save: ")
